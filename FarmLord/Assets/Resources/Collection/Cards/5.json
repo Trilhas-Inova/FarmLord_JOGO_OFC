@@ -1,0 +1,29 @@
+{
+    "id": 5,
+    "characterId": 4,
+    "cardText": "The guards bring a woman to you. She yells \"These swine have been pestering me day in day out! When will they leave me alone?\".",
+    "leftAction": {
+        "text": "Reprimend the guards",
+        "statsModification": {
+            "production": 0,
+            "logistics": 1,
+            "economy": 1,
+            "satisfaction": 0
+        },
+        "followup": [],
+        "specialFollowup": []
+    },
+    "rightAction": {
+        "text": "Leave it be",
+        "statsModification": {
+            "production": 0,
+            "logistics": 0,
+            "economy": -1,
+            "satisfaction": 0
+        },
+        "followup": [],
+        "specialFollowup": []
+    },
+    "cardPrerequisites": [],
+    "specialCardPrerequisites": []
+}

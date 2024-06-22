@@ -1,0 +1,29 @@
+{
+    "id": 8,
+    "characterId": 7,
+    "cardText": "Sample card 1",
+    "leftAction": {
+        "text": "Sample action 1L",
+        "statsModification": {
+            "production": 4,
+            "logistics": -2,
+            "economy": -4,
+            "satisfaction": 0
+        },
+        "followup": [],
+        "specialFollowup": []
+    },
+    "rightAction": {
+        "text": "Sample action 1R",
+        "statsModification": {
+            "production": -2,
+            "logistics": 2,
+            "economy": 4,
+            "satisfaction": 0
+        },
+        "followup": [],
+        "specialFollowup": []
+    },
+    "cardPrerequisites": [],
+    "specialCardPrerequisites": []
+}

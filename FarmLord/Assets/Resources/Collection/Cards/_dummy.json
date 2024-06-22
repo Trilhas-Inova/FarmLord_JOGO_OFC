@@ -1,0 +1,38 @@
+{
+    "id": -1,
+    "characterId": -1,
+    "cardText": "DUMMY CARD - Put this in prerequisites of cards not supposed to be drawn randomly",
+    "leftAction": {
+        "text": "",
+        "statsModification": {
+            "production": 0,
+            "logistics": 0,
+            "economy": 0,
+            "satisfaction": 0
+        },
+        "followup": [],
+        "specialFollowup": []
+    },
+    "rightAction": {
+        "text": "",
+        "statsModification": {
+            "production": 0,
+            "logistics": 0,
+            "economy": 0,
+            "satisfaction": 0
+        },
+        "followup": [],
+        "specialFollowup": []
+    },
+    "cardPrerequisites": [
+        {
+            "id": -1,
+            "status": [
+                "CardShown",
+                "RightActionTaken",
+                "LeftActionTaken"
+            ]
+        }
+    ],
+    "specialCardPrerequisites": []
+}

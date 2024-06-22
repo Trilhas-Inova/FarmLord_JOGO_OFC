@@ -1,0 +1,29 @@
+{
+    "id": 0,
+    "characterId": 0,
+    "cardText": "This is a test card text that should appear on screen.",
+    "leftAction": {
+        "text": "Here goes",
+        "statsModification": {
+            "production": -4,
+            "logistics": 4,
+            "economy": -2,
+            "satisfaction": 2
+        },
+        "followup": [],
+        "specialFollowup": []
+    },
+    "rightAction": {
+        "text": "There goes",
+        "statsModification": {
+            "production": 2,
+            "logistics": 0,
+            "economy": -6,
+            "satisfaction": -2
+        },
+        "followup": [],
+        "specialFollowup": []
+    },
+    "cardPrerequisites": [],
+    "specialCardPrerequisites": []
+}
