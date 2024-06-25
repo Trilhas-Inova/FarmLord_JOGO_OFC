@@ -1,29 +1,29 @@
 {
-    "id": 8,
-    "characterId": 7,
-    "cardText": "Sample card 1",
-    "leftAction": {
-        "text": "Sample action 1L",
-        "statsModification": {
-            "production": 4,
-            "logistics": -2,
-            "economy": -4,
-            "satisfaction": 0
-        },
-        "followup": [],
-        "specialFollowup": []
+  "id": 11,  
+  "characterId": 5,
+  "cardText": "Estamos recebendo pedidos para oferecer produtos em embalagens biodegradáveis. Devemos investir nessa mudança?",
+  "leftAction": {
+    "text": "Sim, investir em embalagens biodegradáveis",
+    "statsModification": {
+      "production": 1,
+      "logistics": 0,
+      "economy": -2,
+      "satisfaction": 2
     },
-    "rightAction": {
-        "text": "Sample action 1R",
-        "statsModification": {
-            "production": -2,
-            "logistics": 2,
-            "economy": 4,
-            "satisfaction": 0
-        },
-        "followup": [],
-        "specialFollowup": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "rightAction": {
+    "text": "Não, continuar com as embalagens atuais",
+    "statsModification": {
+      "production": 0,
+      "logistics": 0,
+      "economy": 1,
+      "satisfaction": -1
     },
-    "cardPrerequisites": [],
-    "specialCardPrerequisites": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "cardPrerequisites": [],
+  "specialCardPrerequisites": []
 }

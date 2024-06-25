@@ -1,29 +1,30 @@
 {
-    "id": 0,
-    "characterId": 0,
-    "cardText": "This is a test card text that should appear on screen.",
-    "leftAction": {
-        "text": "Here goes",
-        "statsModification": {
-            "production": -4,
-            "logistics": 4,
-            "economy": -2,
-            "satisfaction": 2
-        },
-        "followup": [],
-        "specialFollowup": []
+  "id": 1,
+  "characterId": 1,
+  "cardText": "O caminhão quebrou no meio do caminho! Precisamos encontrar uma solução rápida para entregar os produtos a tempo. Comprar um novo caminhão?",
+  "leftAction": {
+    "text": "Sim, comprar um novo caminhão",
+    "statsModification": {
+      "production": 2,
+      "logistics": 5,
+      "economy": -5,
+      "satisfaction": 1
     },
-    "rightAction": {
-        "text": "There goes",
-        "statsModification": {
-            "production": 2,
-            "logistics": 0,
-            "economy": -6,
-            "satisfaction": -2
-        },
-        "followup": [],
-        "specialFollowup": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "rightAction": {
+    "text": "Não, tentar consertar o caminhão antigo",
+    "statsModification": {
+      "production": -2,
+      "logistics": -1,
+      "economy": 1,
+      "satisfaction": -1
     },
-    "cardPrerequisites": [],
-    "specialCardPrerequisites": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "cardPrerequisites": [],
+  "specialCardPrerequisites": []
 }
+

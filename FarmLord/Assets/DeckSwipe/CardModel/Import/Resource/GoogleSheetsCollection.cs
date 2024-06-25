@@ -8,6 +8,7 @@ using DeckSwipe.Gamestate;
 using Outfrost;
 using Outfrost.GoogleSheets;
 using UnityEngine;
+using System.Text;
 
 namespace DeckSwipe.CardModel.Import.Resource {
 
@@ -46,7 +47,7 @@ namespace DeckSwipe.CardModel.Import.Resource {
 			}
 
 			Spreadsheet spreadsheet = JsonUtility.FromJson<Spreadsheet>(
-					new StreamReader(responseStream).ReadToEnd());
+					new StreamReader(responseStream, Encoding.UTF8).ReadToEnd());
 
 			// Parse Metadata sheet
 			RowData[] metaRowData = spreadsheet.sheets[0].data[0].rowData;

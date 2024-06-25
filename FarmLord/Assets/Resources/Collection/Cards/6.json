@@ -1,29 +1,29 @@
 {
-    "id": 6,
-    "characterId": 5,
-    "cardText": "An automaton got stuck in a hothouse. What do we do with it?",
-    "leftAction": {
-        "text": "Disable the automaton",
-        "statsModification": {
-            "production": -2,
-            "logistics": -2,
-            "economy": 0,
-            "satisfaction": -2
-        },
-        "followup": [],
-        "specialFollowup": []
+  "id": 6,  
+  "characterId": 0,
+  "cardText": "A safra de frutas está muito boa, mas o nosso depósito está lotado. Precisamos organizar melhor o armazenamento para evitar perdas. Deseja construir outro depósito refrigerado?",
+  "leftAction": {
+    "text": "Sim, construir outro depósito refrigerado",
+    "statsModification": {
+      "production": 3,
+      "logistics": 2,
+      "economy": -5,
+      "satisfaction": 1
     },
-    "rightAction": {
-        "text": "Disable the hothouse",
-        "statsModification": {
-            "production": 2,
-            "logistics": -4,
-            "economy": -2,
-            "satisfaction": -2
-        },
-        "followup": [],
-        "specialFollowup": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "rightAction": {
+    "text": "Não, tentar organizar o depósito atual",
+    "statsModification": {
+      "production": -1,
+      "logistics": -1,
+      "economy": 1,
+      "satisfaction": 0
     },
-    "cardPrerequisites": [],
-    "specialCardPrerequisites": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "cardPrerequisites": [],
+  "specialCardPrerequisites": []
 }

@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222206124623736144}
   - component: {fileID: 114544265287877034}
   m_Layer: 5
-  m_Name: Days Survived Label
+  m_Name: Dias Administrando Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 222124490524652082}
   - component: {fileID: 114046435782372978}
   m_Layer: 5
-  m_Name: Days Survived Text
+  m_Name: Dias Administrando Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -419,7 +419,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Days survived
+  m_text: Dias Administrando
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

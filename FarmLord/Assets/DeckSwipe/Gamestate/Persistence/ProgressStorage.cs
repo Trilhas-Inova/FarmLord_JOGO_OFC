@@ -1,6 +1,7 @@
 using System.IO;
 using System.Threading.Tasks;
 using UnityEngine;
+using System.Text;
 
 namespace DeckSwipe.Gamestate.Persistence {
 	
@@ -47,7 +48,7 @@ namespace DeckSwipe.Gamestate.Persistence {
 			if (File.Exists(_gameProgressPath)) {
 				string progressJson;
 				using (FileStream fileStream = File.OpenRead(_gameProgressPath)) {
-					StreamReader reader = new StreamReader(fileStream);
+					StreamReader reader = new StreamReader(fileStream, Encoding.UTF8);
 					progressJson = await reader.ReadToEndAsync();
 				}
 				return JsonUtility.FromJson<GameProgress>(progressJson);

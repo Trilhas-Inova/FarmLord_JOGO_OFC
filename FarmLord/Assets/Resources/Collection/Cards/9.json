@@ -1,29 +1,29 @@
 {
-    "id": 9,
-    "characterId": 8,
-    "cardText": "Cample card 2",
-    "leftAction": {
-        "text": "Sample action 2L",
-        "statsModification": {
-            "production": -3,
-            "logistics": 0,
-            "economy": 0,
-            "satisfaction": 0
-        },
-        "followup": [],
-        "specialFollowup": []
+  "id": 10, 
+  "characterId": 3,
+  "cardText": "Um concorrente está oferecendo preços mais baixos para produtos similares aos nossos. Devemos reduzir os nossos preços para competir?",
+  "leftAction": {
+    "text": "Sim, reduzir os preços",
+    "statsModification": {
+      "production": 0,
+      "logistics": -1,
+      "economy": -4,
+      "satisfaction": 1
     },
-    "rightAction": {
-        "text": "Sample action 2R",
-        "statsModification": {
-            "production": 0,
-            "logistics": -4,
-            "economy": -2,
-            "satisfaction": 4
-        },
-        "followup": [],
-        "specialFollowup": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "rightAction": {
+    "text": "Não, manter os preços atuais",
+    "statsModification": {
+      "production": 0,
+      "logistics": 0,
+      "economy": 2,
+      "satisfaction": -1
     },
-    "cardPrerequisites": [],
-    "specialCardPrerequisites": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "cardPrerequisites": [],
+  "specialCardPrerequisites": []
 }

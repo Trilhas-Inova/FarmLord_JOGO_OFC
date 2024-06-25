@@ -1,38 +1,29 @@
 {
-    "id": -1,
-    "characterId": -1,
-    "cardText": "DUMMY CARD - Put this in prerequisites of cards not supposed to be drawn randomly",
-    "leftAction": {
-        "text": "",
-        "statsModification": {
-            "production": 0,
-            "logistics": 0,
-            "economy": 0,
-            "satisfaction": 0
-        },
-        "followup": [],
-        "specialFollowup": []
+  "id": -1,
+  "characterId": 0,
+  "cardText": "Previsão de pouca chuva nos próximos meses, filho. A produção de tomate pode ser afetada. Precisamos tomar uma decisão rápida. Deseja investir em irrigação?",
+  "leftAction": {
+    "text": "Sim, investir em irrigação",
+    "statsModification": {
+      "production": 4,
+      "logistics": -2,
+      "economy": -3,
+      "satisfaction": 1
     },
-    "rightAction": {
-        "text": "",
-        "statsModification": {
-            "production": 0,
-            "logistics": 0,
-            "economy": 0,
-            "satisfaction": 0
-        },
-        "followup": [],
-        "specialFollowup": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "rightAction": {
+    "text": "Não, economizar recursos",
+    "statsModification": {
+      "production": -3,
+      "logistics": 0,
+      "economy": 2,
+      "satisfaction": -1
     },
-    "cardPrerequisites": [
-        {
-            "id": -1,
-            "status": [
-                "CardShown",
-                "RightActionTaken",
-                "LeftActionTaken"
-            ]
-        }
-    ],
-    "specialCardPrerequisites": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "cardPrerequisites": [],
+  "specialCardPrerequisites": []
 }

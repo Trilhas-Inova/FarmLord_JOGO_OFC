@@ -1,38 +1,29 @@
 {
-    "id": 4,
-    "characterId": 3,
-    "cardText": "The scouts find 2 steam cores and a shipment of wood on board the ship. A crew had been trying to survive in the wreck but everybody's dead now.",
-    "leftAction": {
-        "text": "",
-        "statsModification": {
-            "production": 2,
-            "logistics": 0,
-            "economy": 2,
-            "satisfaction": 6
-        },
-        "followup": [],
-        "specialFollowup": []
+  "id": 4, 
+  "characterId": 5,
+  "cardText": "Estou vendendo suplementos alimentares naturais. Você poderia fornecer ingredientes para a fabricação, como frutas e sementes?",
+  "leftAction": {
+    "text": "Sim, fornecer frutas e sementes",
+    "statsModification": {
+      "production": 3,
+      "logistics": -1,
+      "economy": 2,
+      "satisfaction": 2
     },
-    "rightAction": {
-        "text": "",
-        "statsModification": {
-            "production": 2,
-            "logistics": 0,
-            "economy": 2,
-            "satisfaction": 6
-        },
-        "followup": [],
-        "specialFollowup": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "rightAction": {
+    "text": "Não, focar nas produções atuais",
+    "statsModification": {
+      "production": 0,
+      "logistics": 1,
+      "economy": 0,
+      "satisfaction": -1
     },
-    "cardPrerequisites": [
-        {
-            "id": -1,
-            "status": [
-                "CardShown",
-                "RightActionTaken",
-                "LeftActionTaken"
-            ]
-        }
-    ],
-    "specialCardPrerequisites": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "cardPrerequisites": [],
+  "specialCardPrerequisites": []
 }

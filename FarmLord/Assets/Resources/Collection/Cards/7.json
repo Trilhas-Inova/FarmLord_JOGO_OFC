@@ -1,29 +1,29 @@
 {
-    "id": 7,
-    "characterId": 6,
-    "cardText": "Don't you think we should have a tea party after work hours?",
-    "leftAction": {
-        "text": "That's a great idea",
-        "statsModification": {
-            "production": -2,
-            "logistics": 2,
-            "economy": 2,
-            "satisfaction": -4
-        },
-        "followup": [],
-        "specialFollowup": []
+  "id": 9, 
+  "characterId": 1,
+  "cardText": "Recebemos um grande pedido de produtos para um evento importante da cidade. Podemos expandir a produção temporariamente para atender a demanda?",
+  "leftAction": {
+    "text": "Sim, expandir a produção",
+    "statsModification": {
+      "production": 4,
+      "logistics": 1,
+      "economy": -3,
+      "satisfaction": 2
     },
-    "rightAction": {
-        "text": "No, let's not",
-        "statsModification": {
-            "production": 0,
-            "logistics": 0,
-            "economy": -4,
-            "satisfaction": 2
-        },
-        "followup": [],
-        "specialFollowup": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "rightAction": {
+    "text": "Não, manter a produção atual",
+    "statsModification": {
+      "production": 0,
+      "logistics": 0,
+      "economy": 1,
+      "satisfaction": -1
     },
-    "cardPrerequisites": [],
-    "specialCardPrerequisites": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "cardPrerequisites": [],
+  "specialCardPrerequisites": []
 }

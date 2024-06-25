@@ -3,7 +3,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
-
+using System.Text;
 namespace Outfrost {
 
 	public class JsonFile<T>
@@ -35,7 +35,7 @@ namespace Outfrost {
 			string json;
 			await fileAccess.WaitAsync();
 			using (FileStream fileStream = File.OpenRead(path)) {
-				StreamReader reader = new StreamReader(fileStream);
+				StreamReader reader = new StreamReader(fileStream, Encoding.UTF8);
 				json = await reader.ReadToEndAsync();
 			}
 			fileAccess.Release();

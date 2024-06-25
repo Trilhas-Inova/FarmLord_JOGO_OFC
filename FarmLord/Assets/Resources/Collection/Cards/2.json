@@ -1,29 +1,30 @@
 {
-    "id": 2,
-    "characterId": 2,
-    "cardText": "The hothouse is very cold. The crops are freezing up. What should we do?",
-    "leftAction": {
-        "text": "Turn on the heater in the hothouse",
-        "statsModification": {
-            "production": 1,
-            "logistics": 1,
-            "economy": 0,
-            "satisfaction": -2
-        },
-        "followup": [],
-        "specialFollowup": []
+  "id": 2, 
+  "characterId": 3,
+  "cardText": "Os clientes do mercado estão pedindo mais variedade de vegetais orgânicos. Alface, rúcula e espinafre são os mais pedidos!",
+  "leftAction": {
+    "text": "Sim, vamos aumentar a variedade de vegetais",
+    "statsModification": {
+      "production": 3,
+      "logistics": -1,
+      "economy": -2,
+      "satisfaction": 2
     },
-    "rightAction": {
-        "text": "Put the generator in overdrive",
-        "statsModification": {
-            "production": 2,
-            "logistics": 2,
-            "economy": -2,
-            "satisfaction": -4
-        },
-        "followup": [],
-        "specialFollowup": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "rightAction": {
+    "text": "Não, manter a produção atual",
+    "statsModification": {
+      "production": 0,
+      "logistics": 1,
+      "economy": 1,
+      "satisfaction": -1
     },
-    "cardPrerequisites": [],
-    "specialCardPrerequisites": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "cardPrerequisites": [],
+  "specialCardPrerequisites": []
 }
+

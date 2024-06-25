@@ -1,29 +1,29 @@
 {
-    "id": 5,
-    "characterId": 4,
-    "cardText": "The guards bring a woman to you. She yells \"These swine have been pestering me day in day out! When will they leave me alone?\".",
-    "leftAction": {
-        "text": "Reprimend the guards",
-        "statsModification": {
-            "production": 0,
-            "logistics": 1,
-            "economy": 1,
-            "satisfaction": 0
-        },
-        "followup": [],
-        "specialFollowup": []
+  "id": 5,  
+  "characterId": 6,
+  "cardText": "O mercado está competitivo. É hora de investir em tecnologia para aumentar a produtividade. Recomendo um sistema de controle de irrigação inteligente.",
+  "leftAction": {
+    "text": "Sim, investir em tecnologia",
+    "statsModification": {
+      "production": 4,
+      "logistics": -1,
+      "economy": -4,
+      "satisfaction": 2
     },
-    "rightAction": {
-        "text": "Leave it be",
-        "statsModification": {
-            "production": 0,
-            "logistics": 0,
-            "economy": -1,
-            "satisfaction": 0
-        },
-        "followup": [],
-        "specialFollowup": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "rightAction": {
+    "text": "Não, continuar com os métodos atuais",
+    "statsModification": {
+      "production": 0,
+      "logistics": 1,
+      "economy": 1,
+      "satisfaction": -1
     },
-    "cardPrerequisites": [],
-    "specialCardPrerequisites": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "cardPrerequisites": [],
+  "specialCardPrerequisites": []
 }

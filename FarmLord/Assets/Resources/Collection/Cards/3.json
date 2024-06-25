@@ -1,34 +1,29 @@
 {
-    "id": 3,
-    "characterId": 3,
-    "cardText": "The scouts come across what looks to be a wrecked ship. Should they explore it?",
-    "leftAction": {
-        "text": "No",
-        "statsModification": {
-            "production": 0,
-            "logistics": 0,
-            "economy": 0,
-            "satisfaction": 0
-        },
-        "followup": [],
-        "specialFollowup": []
+  "id": 3, 
+  "characterId": 4,
+  "cardText": "Para o meu novo menu de outono, preciso de abobrinha orgânica de formato específico. Você tem algo assim?",
+  "leftAction": {
+    "text": "Sim, vamos cultivar a abobrinha específica",
+    "statsModification": {
+      "production": 2,
+      "logistics": -1,
+      "economy": -2,
+      "satisfaction": 2
     },
-    "rightAction": {
-        "text": "Yes",
-        "statsModification": {
-            "production": 0,
-            "logistics": 0,
-            "economy": 0,
-            "satisfaction": 0
-        },
-        "followup": [
-            {
-                "id": 4,
-                "delay": 2
-            }
-        ],
-        "specialFollowup": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "rightAction": {
+    "text": "Não, manter a produção atual",
+    "statsModification": {
+      "production": 0,
+      "logistics": 1,
+      "economy": 1,
+      "satisfaction": -1
     },
-    "cardPrerequisites": [],
-    "specialCardPrerequisites": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "cardPrerequisites": [],
+  "specialCardPrerequisites": []
 }

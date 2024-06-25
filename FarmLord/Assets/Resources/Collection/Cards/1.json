@@ -1,29 +1,29 @@
 {
-    "id": 1,
-    "characterId": 1,
-    "cardText": "And this is yet another card that you may encounter in the game. Are you having fun thus far?",
-    "leftAction": {
-        "text": "No",
-        "statsModification": {
-            "production": -2,
-            "logistics": -2,
-            "economy": -2,
-            "satisfaction": -2
-        },
-        "followup": [],
-        "specialFollowup": []
+  "id": 1, 
+  "characterId": 2,
+  "cardText": "Os clientes estão pedindo abacaxi orgânico! Dizem que é difícil encontrar na região. Você acha que seria viável plantar abacaxi?",
+  "leftAction": {
+    "text": "Sim, vamos plantar abacaxi",
+    "statsModification": {
+      "production": 3,
+      "logistics": -2,
+      "economy": -3,
+      "satisfaction": 2
     },
-    "rightAction": {
-        "text": "Yes",
-        "statsModification": {
-            "production": 2,
-            "logistics": 2,
-            "economy": 2,
-            "satisfaction": 2
-        },
-        "followup": [],
-        "specialFollowup": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "rightAction": {
+    "text": "Não, continuar com as culturas atuais",
+    "statsModification": {
+      "production": 0,
+      "logistics": 1,
+      "economy": 1,
+      "satisfaction": -1
     },
-    "cardPrerequisites": [],
-    "specialCardPrerequisites": []
+    "followup": [],
+    "specialFollowup": []
+  },
+  "cardPrerequisites": [],
+  "specialCardPrerequisites": []
 }
