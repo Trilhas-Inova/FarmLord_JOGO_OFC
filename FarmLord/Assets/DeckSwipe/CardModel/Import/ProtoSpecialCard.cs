@@ -2,7 +2,7 @@ using System;
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace DeckSwipe.CardModel.Import {
+namespace FarmLord.CardModel.Import {
 
 	[Serializable]
 	public class ProtoSpecialCard {

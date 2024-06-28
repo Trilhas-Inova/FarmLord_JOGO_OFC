@@ -1,6 +1,6 @@
 using System;
 
-namespace DeckSwipe.CardModel.Import {
+namespace FarmLord.CardModel.Import {
 
 	[Serializable]
 	public class ProtoImage {

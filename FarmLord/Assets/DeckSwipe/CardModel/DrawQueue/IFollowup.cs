@@ -1,6 +1,6 @@
-using DeckSwipe.Gamestate;
+using FarmLord.Gamestate;
 
-namespace DeckSwipe.CardModel.DrawQueue {
+namespace FarmLord.CardModel.DrawQueue {
 
 	public interface IFollowup {
 

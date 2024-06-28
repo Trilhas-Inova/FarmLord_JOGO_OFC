@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DeckSwipe.CardModel;
-using DeckSwipe.CardModel.Import;
-using DeckSwipe.CardModel.Import.Resource;
-using DeckSwipe.CardModel.Prerequisite;
+using FarmLord.CardModel;
+using FarmLord.CardModel.Import;
+using FarmLord.CardModel.Import.Resource;
+using FarmLord.CardModel.Prerequisite;
 using UnityEngine;
 
-namespace DeckSwipe.Gamestate {
+namespace FarmLord.Gamestate {
 
 	public class CardStorage {
 

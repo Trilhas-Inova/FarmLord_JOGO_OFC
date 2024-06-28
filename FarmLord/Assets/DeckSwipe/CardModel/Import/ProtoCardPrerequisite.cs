@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace DeckSwipe.CardModel.Import {
+namespace FarmLord.CardModel.Import {
 
 	[Serializable]
 	public class ProtoCardPrerequisite {

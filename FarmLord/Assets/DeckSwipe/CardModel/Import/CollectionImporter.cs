@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Threading.Tasks;
-using DeckSwipe.CardModel.DrawQueue;
-using DeckSwipe.CardModel.Import.Resource;
-using DeckSwipe.CardModel.Prerequisite;
-using DeckSwipe.Gamestate;
+using FarmLord.CardModel.DrawQueue;
+using FarmLord.CardModel.Import.Resource;
+using FarmLord.CardModel.Prerequisite;
+using FarmLord.Gamestate;
 using Outfrost;
 using UnityEngine;
 
-namespace DeckSwipe.CardModel.Import {
+namespace FarmLord.CardModel.Import {
 
 	public class CollectionImporter {
 
 		private readonly Sprite defaultSprite;
 		private readonly bool remoteCollectionFirst;
-		
+
 		public CollectionImporter(Sprite defaultSprite, bool remoteCollectionFirst) {
 			this.defaultSprite = defaultSprite;
-			this.remoteCollectionFirst = remoteCollectionFirst;
+			this.remoteCollectionFirst = false;
 		}
 
 		public async Task<ImportedCards> Import() {
@@ -111,7 +111,7 @@ namespace DeckSwipe.CardModel.Import {
 			}
 
 			Dictionary<int, Character> characters = new Dictionary<int, Character>();
-			foreach (ProtoCharacter protoCharacter in collection.characters){
+			foreach (ProtoCharacter protoCharacter in collection.characters) {
 				if (characters.ContainsKey(protoCharacter.id)) {
 					Debug.LogWarning("[CollectionImporter] Duplicate id found in Characters");
 					continue;
@@ -318,10 +318,10 @@ namespace DeckSwipe.CardModel.Import {
 				IActionOutcome leftActionOutcome = null;
 				IActionOutcome rightActionOutcome = null;
 
-				if (protoSpecialCard.id == "gameover_production"
-						|| protoSpecialCard.id == "gameover_logistics"
-						|| protoSpecialCard.id == "gameover_economy"
-						|| protoSpecialCard.id == "gameover_satisfaction") {
+				if (protoSpecialCard.id == "gameover_coal"
+						|| protoSpecialCard.id == "gameover_food"
+						|| protoSpecialCard.id == "gameover_health"
+						|| protoSpecialCard.id == "gameover_hope") {
 					leftActionOutcome = new GameOverOutcome();
 					rightActionOutcome = new GameOverOutcome();
 				}

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace DeckSwipe.CardModel {
+namespace FarmLord.CardModel {
 	
 	public class Character {
 		

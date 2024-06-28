@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using System.Text;
 
-namespace DeckSwipe.CardModel.Import.Resource {
+namespace FarmLord.CardModel.Import.Resource {
 
 	[Serializable]
 	public class GoogleSheetsSecrets {
@@ -32,7 +32,7 @@ namespace DeckSwipe.CardModel.Import.Resource {
 
 			string json;
 			using (FileStream fileStream = File.OpenRead(_path)) {
-				StreamReader reader = new StreamReader(fileStream, Encoding.UTF8);
+				StreamReader reader = new StreamReader(fileStream);
 				json = await reader.ReadToEndAsync();
 			}
 			GoogleSheetsSecrets secrets;

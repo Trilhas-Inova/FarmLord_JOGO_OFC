@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace DeckSwipe.World {
+namespace FarmLord.World {
 	
 	public class GameStartOverlay : MonoBehaviour {
 		

@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
-using DeckSwipe.CardModel.Import;
+using FarmLord.CardModel.Import;
 using Outfrost;
 using UnityEngine;
 
-namespace DeckSwipe.CardModel.Import.Resource {
+namespace FarmLord.CardModel.Import.Resource {
 
 	public static class LocalCollection {
 

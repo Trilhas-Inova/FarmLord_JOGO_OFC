@@ -3,14 +3,14 @@ using System;
 using System.IO;
 using System.Net;
 using System.Threading.Tasks;
-using DeckSwipe.CardModel.DrawQueue;
-using DeckSwipe.Gamestate;
+using FarmLord.CardModel.DrawQueue;
+using FarmLord.Gamestate;
 using Outfrost;
 using Outfrost.GoogleSheets;
 using UnityEngine;
 using System.Text;
 
-namespace DeckSwipe.CardModel.Import.Resource {
+namespace FarmLord.CardModel.Import.Resource {
 
 	public class GoogleSheetsCollection {
 

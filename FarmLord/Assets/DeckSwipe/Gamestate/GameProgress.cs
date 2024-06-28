@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using DeckSwipe.CardModel;
+using FarmLord.CardModel;
 
-namespace DeckSwipe.Gamestate {
+namespace FarmLord.Gamestate {
 
 	[Serializable]
 	public class GameProgress {

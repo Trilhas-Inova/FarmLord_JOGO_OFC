@@ -3,7 +3,7 @@ using Outfrost;
 using TMPro;
 using UnityEngine;
 
-namespace DeckSwipe.World {
+namespace FarmLord.World {
 	
 	public class ProgressDisplay : MonoBehaviour {
 		

@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using DeckSwipe.CardModel.DrawQueue;
+using FarmLord.CardModel.DrawQueue;
 
-namespace DeckSwipe.CardModel.Import {
+namespace FarmLord.CardModel.Import {
 
 	[Serializable]
 	public class ProtoSpecialAction {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using DeckSwipe.CardModel;
-using DeckSwipe.World;
+using FarmLord.CardModel;
+using FarmLord.World;
 using UnityEngine;
 
-namespace DeckSwipe.Gamestate {
+namespace FarmLord.Gamestate {
 	
 	public static class Stats {
 		

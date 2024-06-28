@@ -1,12 +1,12 @@
-﻿using DeckSwipe.CardModel;
-using DeckSwipe.CardModel.DrawQueue;
-using DeckSwipe.Gamestate;
-using DeckSwipe.Gamestate.Persistence;
-using DeckSwipe.World;
+﻿using FarmLord.CardModel;
+using FarmLord.CardModel.DrawQueue;
+using FarmLord.Gamestate;
+using FarmLord.Gamestate.Persistence;
+using FarmLord.World;
 using Outfrost;
 using UnityEngine;
 
-namespace DeckSwipe {
+namespace FarmLord {
 
 	public class Game : MonoBehaviour {
 

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using DeckSwipe.CardModel.Prerequisite;
-using DeckSwipe.Gamestate;
+using FarmLord.CardModel.Prerequisite;
+using FarmLord.Gamestate;
 using UnityEngine;
 
-namespace DeckSwipe.CardModel {
+namespace FarmLord.CardModel {
 
 	public class SpecialCard : ICard {
 

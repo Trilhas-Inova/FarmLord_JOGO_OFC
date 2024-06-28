@@ -6,7 +6,7 @@
 # make a copy named install.sh and edit there.
 
 # Unity project name
-PROJ_NAME="DeckSwipe"
+PROJ_NAME="FarmLord"
 
 # Set this to the location of the adb binary
 # provided in the Android SDK that you're using in Unity

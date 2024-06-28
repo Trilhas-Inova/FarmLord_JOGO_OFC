@@ -1,6 +1,6 @@
 using System;
 
-namespace DeckSwipe.Gamestate {
+namespace FarmLord.Gamestate {
 
 	[Serializable]
 	[Flags]

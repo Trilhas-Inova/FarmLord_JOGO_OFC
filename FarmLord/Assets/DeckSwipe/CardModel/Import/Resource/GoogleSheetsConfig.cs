@@ -4,16 +4,17 @@ using System.Threading.Tasks;
 using UnityEngine;
 using System.Text;
 
-namespace DeckSwipe.CardModel.Import.Resource {
+namespace FarmLord.CardModel.Import.Resource {
 
 	[Serializable]
 	public class GoogleSheetsConfig {
 
 		private static readonly string _path = Application.persistentDataPath + "/google_sheets_config.json";
-
+		
 		public string spreadsheetId;
 
 		private static async Task Create() {
+			Debug.Log(_path);
 			string json = JsonUtility.ToJson(new GoogleSheetsConfig(), true);
 			using (FileStream fileStream = File.Create(_path)) {
 				StreamWriter writer = new StreamWriter(fileStream);

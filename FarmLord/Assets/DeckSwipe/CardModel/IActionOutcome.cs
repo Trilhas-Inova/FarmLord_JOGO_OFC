@@ -1,6 +1,6 @@
-﻿using DeckSwipe.CardModel.DrawQueue;
+﻿using FarmLord.CardModel.DrawQueue;
 
-namespace DeckSwipe.CardModel {
+namespace FarmLord.CardModel {
 
 	public interface IActionOutcome {
 

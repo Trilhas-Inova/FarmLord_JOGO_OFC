@@ -1,4 +1,4 @@
-# DeckSwipe
+# FarmLord
 
 This is a skeleton for a simple card game. There are 4 gameplay resources (predefined as Coal, Food, Health, Hope), each contributing to the chances of survival for the player's city. Choices that the player makes through swiping each card left or right will influence those resources in various ways. If any one of the resources depletes (reaches zero), the game is lost and reset. The player's objective is to make decisions such that depletion doesn't happen, and the city survives, for as long as they can manage.
 
@@ -26,5 +26,5 @@ All content published in this repository, be it software, in source code or bina
 
 	Files:
 
-	* `DeckSwipe/Assets/Dependencies/TextMesh Pro/*`
+	* `FarmLord/Assets/Dependencies/TextMesh Pro/*`
 

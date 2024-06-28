@@ -1,9 +1,9 @@
-using DeckSwipe.Gamestate;
+using FarmLord.Gamestate;
 using Outfrost;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace DeckSwipe.World {
+namespace FarmLord.World {
 	
 	public class StatsDisplay : MonoBehaviour {
 		

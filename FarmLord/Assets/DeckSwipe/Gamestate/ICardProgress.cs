@@ -1,4 +1,4 @@
-namespace DeckSwipe.Gamestate {
+namespace FarmLord.Gamestate {
 	
 	public interface ICardProgress {
 		

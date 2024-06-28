@@ -1,9 +1,9 @@
-﻿using DeckSwipe.CardModel;
+﻿using FarmLord.CardModel;
 using Outfrost;
 using TMPro;
 using UnityEngine;
 
-namespace DeckSwipe.World {
+namespace FarmLord.World {
 
 	public class CardBehaviour : MonoBehaviour {
 

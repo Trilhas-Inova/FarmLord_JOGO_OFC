@@ -1,7 +1,7 @@
 using System;
-﻿using DeckSwipe.Gamestate;
+﻿using FarmLord.Gamestate;
 
-namespace DeckSwipe.CardModel {
+namespace FarmLord.CardModel {
 
 	[Serializable]
 	public class StatsModification {

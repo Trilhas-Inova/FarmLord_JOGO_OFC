@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using System.Text;
 
-namespace DeckSwipe.Gamestate.Persistence {
+namespace FarmLord.Gamestate.Persistence {
 	
 	public class ProgressStorage {
 		

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DeckSwipe.World {
+namespace FarmLord.World {
 
 	using KeyHandler = Action<KeyCode>;
 	using KeyHandlerMap = Dictionary<KeyCode, LinkedList<Action<KeyCode>>>;

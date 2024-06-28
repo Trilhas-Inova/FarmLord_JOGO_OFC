@@ -1,4 +1,4 @@
-﻿namespace DeckSwipe.CardModel {
+﻿namespace FarmLord.CardModel {
 
 	public class GameOverOutcome : IActionOutcome {
 

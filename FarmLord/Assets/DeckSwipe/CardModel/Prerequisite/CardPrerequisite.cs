@@ -1,7 +1,7 @@
 using System;
-using DeckSwipe.Gamestate;
+using FarmLord.Gamestate;
 
-namespace DeckSwipe.CardModel.Prerequisite {
+namespace FarmLord.CardModel.Prerequisite {
 
 	[Serializable]
 	public class CardPrerequisite : ICardPrerequisite {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace DeckSwipe.CardModel.DrawQueue {
+namespace FarmLord.CardModel.DrawQueue {
 
 	public class CardDrawQueue {
 
