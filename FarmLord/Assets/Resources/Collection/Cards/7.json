@@ -1,9 +1,9 @@
 {
   "id": 7, 
   "characterId": 1,
-  "cardText": "Recebemos um grande pedido de produtos para um evento importante da cidade. Podemos expandir a produção temporariamente para atender a demanda?",
+  "cardText": "Recebemos um grande pedido de produtos para um evento importante da cidade. Podemos expandir a produ\u00E7\u00E3o temporariamente para atender a demanda?",
   "leftAction": {
-    "text": "Sim, expandir a produção",
+    "text": "Sim, expandir a produ\u00E7\u00E3o",
     "statsModification": {
       "production": 4,
       "logistics": 1,
@@ -14,7 +14,7 @@
     "specialFollowup": []
   },
   "rightAction": {
-    "text": "Não, manter a produção atual",
+    "text": "N\u00E3o, manter a produ\u00E7\u00E3o atual",
     "statsModification": {
       "production": 0,
       "logistics": 0,

@@ -1,9 +1,9 @@
 {
   "id": 0,
   "characterId": 1,
-  "cardText": "O caminhão quebrou no meio do caminho! Precisamos encontrar uma solução rápida para entregar os produtos a tempo. Comprar um novo caminhão?",
+  "cardText": "O caminh\u00E3o quebrou no meio do caminho! Precisamos encontrar uma solu\u00E7\u00E3o r\u00e1pida para entregar os produtos a tempo. Comprar um novo caminh\u00E3o?",
   "leftAction": {
-    "text": "Sim, comprar um novo caminhão",
+    "text": "Sim, comprar um novo caminh\u00E3o",
     "statsModification": {
       "production": 2,
       "logistics": 5,
@@ -14,7 +14,7 @@
     "specialFollowup": []
   },
   "rightAction": {
-    "text": "Não, tentar consertar o caminhão antigo",
+    "text": "N\u00E3o, tentar consertar o caminh\u00E3o antigo",
     "statsModification": {
       "production": -2,
       "logistics": -1,

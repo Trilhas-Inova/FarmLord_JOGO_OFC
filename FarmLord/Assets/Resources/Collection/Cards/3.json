@@ -1,9 +1,9 @@
 {
   "id": 3, 
   "characterId": 4,
-  "cardText": "Para o meu novo menu de outono, preciso de abobrinha orgânica de formato específico. Você tem algo assim?",
+  "cardText": "Para o meu novo menu de outono, preciso de abobrinha org\u00E2nica de formato espec\u00EDfico. Voc\u00EA tem algo assim?",
   "leftAction": {
-    "text": "Sim, vamos cultivar a abobrinha específica",
+    "text": "Sim, vamos cultivar a abobrinha espec\u00EDfica",
     "statsModification": {
       "production": 2,
       "logistics": -1,
@@ -14,7 +14,7 @@
     "specialFollowup": []
   },
   "rightAction": {
-    "text": "Não, manter a produção atual",
+    "text": "N\u00E3o, manter a produ\u00E7\u00E3o atual",
     "statsModification": {
       "production": 0,
       "logistics": 1,

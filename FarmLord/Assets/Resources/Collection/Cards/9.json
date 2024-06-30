@@ -1,9 +1,9 @@
 {
   "id": 9, 
   "characterId": 3,
-  "cardText": "Um concorrente está oferecendo preços mais baixos para produtos similares aos nossos. Devemos reduzir os nossos preços para competir?",
+  "cardText": "Um concorrente est\u00E1 oferecendo pre\u00E7os mais baixos para produtos similares aos nossos. Devemos reduzir os nossos pre\u00E7os para competir?",
   "leftAction": {
-    "text": "Sim, reduzir os preços",
+    "text": "Sim, reduzir os pre\u00E7os",
     "statsModification": {
       "production": 0,
       "logistics": -1,
@@ -14,7 +14,7 @@
     "specialFollowup": []
   },
   "rightAction": {
-    "text": "Não, manter os preços atuais",
+    "text": "N\u00E3o, manter os pre\u00E7os atuais",
     "statsModification": {
       "production": 0,
       "logistics": 0,

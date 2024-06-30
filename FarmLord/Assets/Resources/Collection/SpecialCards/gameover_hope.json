@@ -1,7 +1,7 @@
 {
     "id": "gameover_satisfaction",
     "characterId": -1,
-    "cardText": "All satisfaction among the people is lost.",
+    "cardText": "Os clientes ficaram insatisfeitos!",
     "leftAction": {
         "text": "",
         "followup": [],

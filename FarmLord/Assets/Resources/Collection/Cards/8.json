@@ -1,9 +1,9 @@
 {
   "id": 8,  
   "characterId": 5,
-  "cardText": "Estamos recebendo pedidos para oferecer produtos em embalagens biodegradáveis. Devemos investir nessa mudança?",
+  "cardText": "Estamos recebendo pedidos para oferecer produtos em embalagens biodegrad\u00E1veis. Devemos investir nessa mudan\u00E7a?",
   "leftAction": {
-    "text": "Sim, investir em embalagens biodegradáveis",
+    "text": "Sim, investir em embalagens biodegrad\u00E1veis",
     "statsModification": {
       "production": 1,
       "logistics": 0,
@@ -14,7 +14,7 @@
     "specialFollowup": []
   },
   "rightAction": {
-    "text": "Não, continuar com as embalagens atuais",
+    "text": "N\u00E3o, continuar com as embalagens atuais",
     "statsModification": {
       "production": 0,
       "logistics": 0,

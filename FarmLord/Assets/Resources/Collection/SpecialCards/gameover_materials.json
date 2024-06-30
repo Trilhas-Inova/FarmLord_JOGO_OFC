@@ -1,7 +1,7 @@
 {
     "id": "gameover_materials",
     "characterId": -1,
-    "cardText": "The city runs out of materials to sustain itself.",
+    "cardText": "Seus recursos financeiros se esgotaram, culminando na fim da fazenda.",
     "leftAction": {
         "text": "",
         "followup": [],

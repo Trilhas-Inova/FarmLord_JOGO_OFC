@@ -1,7 +1,7 @@
 {
   "id": 5,  
   "characterId": 6,
-  "cardText": "O mercado está competitivo. É hora de investir em tecnologia para aumentar a produtividade. Recomendo um sistema de controle de irrigação inteligente.",
+  "cardText": "O mercado est\u00E1 competitivo. Hora de investir em tecnologia para aumentar a produtividade. Recomendo um sistema de controle de irriga\u00E7\u00E3o inteligente.",
   "leftAction": {
     "text": "Sim, investir em tecnologia",
     "statsModification": {
@@ -14,7 +14,7 @@
     "specialFollowup": []
   },
   "rightAction": {
-    "text": "Não, continuar com os métodos atuais",
+    "text": "N\u00E3o, continuar com os m\u00E9todos atuais",
     "statsModification": {
       "production": 0,
       "logistics": 1,

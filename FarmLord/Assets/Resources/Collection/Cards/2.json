@@ -1,7 +1,7 @@
 {
   "id": 2, 
   "characterId": 3,
-  "cardText": "Os clientes do mercado estão pedindo mais variedade de vegetais orgânicos. Alface, rúcula e espinafre são os mais pedidos!",
+  "cardText": "Os clientes do mercado est\u00E3o pedindo mais variedade de vegetais org\u00E2nicos. Alface, r\u00FAcula e espinafre s\u00E3o os mais pedidos!",
   "leftAction": {
     "text": "Sim, vamos aumentar a variedade de vegetais",
     "statsModification": {
@@ -14,7 +14,7 @@
     "specialFollowup": []
   },
   "rightAction": {
-    "text": "Não, manter a produção atual",
+    "text": "N\u00E3o, manter a produ\u00E7\u00E3o atual",
     "statsModification": {
       "production": 0,
       "logistics": 1,

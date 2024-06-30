@@ -1,9 +1,9 @@
 {
   "id": -1,
   "characterId": 0,
-  "cardText": "Previsão de pouca chuva nos próximos meses, filho. A produção de tomate pode ser afetada. Precisamos tomar uma decisão rápida. Deseja investir em irrigação?",
+  "cardText": "Previs\u00E3o de pouca chuva nos pr\u00F3ximos meses, filho. A produ\u00E7\u00E3o de tomate pode ser afetada. Precisamos tomar uma decis\u00E3o r\u00E1pida. Deseja investir em irriga\u00E7\u00E3o?",
   "leftAction": {
-    "text": "Sim, investir em irrigação",
+    "text": "Sim, investir em irriga\u00E7\u00E3o",
     "statsModification": {
       "production": 4,
       "logistics": -2,
@@ -14,7 +14,7 @@
     "specialFollowup": []
   },
   "rightAction": {
-    "text": "Não, economizar recursos",
+    "text": "N\u00E3o, economizar recursos",
     "statsModification": {
       "production": -3,
       "logistics": 0,

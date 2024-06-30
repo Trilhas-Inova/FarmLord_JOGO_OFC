@@ -1,9 +1,9 @@
 {
   "id": 6,  
   "characterId": 0,
-  "cardText": "A safra de frutas está muito boa, mas o nosso depósito está lotado. Precisamos organizar melhor o armazenamento para evitar perdas. Deseja construir outro depósito refrigerado?",
+  "cardText": "A safra de frutas est\u00E1 muito boa, mas o nosso dep\u00F3sito est\u00E1 lotado. Precisamos organizar melhor o armazenamento para evitar perdas. Deseja construir outro dep\u00F3sito refrigerado?",
   "leftAction": {
-    "text": "Sim, construir outro depósito refrigerado",
+    "text": "Sim, construir outro dep\u00F3sito refrigerado",
     "statsModification": {
       "production": 3,
       "logistics": 2,
@@ -14,7 +14,7 @@
     "specialFollowup": []
   },
   "rightAction": {
-    "text": "Não, tentar organizar o depósito atual",
+    "text": "N\u00E3o, tentar organizar o dep\u00F3sito atual",
     "statsModification": {
       "production": -1,
       "logistics": -1,

@@ -1,7 +1,7 @@
 {
     "id": "gameover_heat",
     "characterId": -1,
-    "cardText": "The city runs out of heat and freezes over.",
+    "cardText": " Suas atitudes levaram a uma escassez de recursos na fazenda, resultando no seu colapso.",
     "leftAction": {
         "text": "",
         "followup": [],

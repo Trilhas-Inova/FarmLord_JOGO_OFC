@@ -1,7 +1,7 @@
 {
   "id": 1, 
   "characterId": 2,
-  "cardText": "Os clientes estão pedindo abacaxi orgânico! Dizem que é difícil encontrar na região. Você acha que seria viável plantar abacaxi?",
+  "cardText": "Os clientes est\u00E3o pedindo abacaxi org\u00E2nico! Dizem que \u00E9 dif\u00EDcil encontrar na regi\u00E3o. Voc\u00EA acha que seria vi\u00E1vel plantar abacaxi?",
   "leftAction": {
     "text": "Sim, vamos plantar abacaxi",
     "statsModification": {
@@ -14,7 +14,7 @@
     "specialFollowup": []
   },
   "rightAction": {
-    "text": "Não, continuar com as culturas atuais",
+    "text": "N\u00E3o, continuar com as culturas atuais",
     "statsModification": {
       "production": 0,
       "logistics": 1,

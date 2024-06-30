@@ -1,7 +1,7 @@
 {
   "id": 4, 
   "characterId": 5,
-  "cardText": "Estou vendendo suplementos alimentares naturais. Você poderia fornecer ingredientes para a fabricação, como frutas e sementes?",
+  "cardText": "Estou vendendo suplementos alimentares naturais. Voc\u00EA poderia fornecer ingredientes para a fabrica\u00E7\u00E3o, como frutas e sementes?",
   "leftAction": {
     "text": "Sim, fornecer frutas e sementes",
     "statsModification": {
@@ -14,7 +14,7 @@
     "specialFollowup": []
   },
   "rightAction": {
-    "text": "Não, focar nas produções atuais",
+    "text": "N\u00E3o, focar nas produ\u00E7\u00F5es atuais",
     "statsModification": {
       "production": 0,
       "logistics": 1,
