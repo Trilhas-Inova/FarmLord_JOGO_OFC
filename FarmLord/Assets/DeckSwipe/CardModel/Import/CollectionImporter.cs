@@ -318,10 +318,10 @@ namespace FarmLord.CardModel.Import {
 				IActionOutcome leftActionOutcome = null;
 				IActionOutcome rightActionOutcome = null;
 
-				if (protoSpecialCard.id == "gameover_coal"
-						|| protoSpecialCard.id == "gameover_food"
-						|| protoSpecialCard.id == "gameover_health"
-						|| protoSpecialCard.id == "gameover_hope") {
+				if (protoSpecialCard.id == "gameover_production"
+						|| protoSpecialCard.id == "gameover_logistics"
+						|| protoSpecialCard.id == "gameover_economy"
+						|| protoSpecialCard.id == "gameover_satisfaction") {
 					leftActionOutcome = new GameOverOutcome();
 					rightActionOutcome = new GameOverOutcome();
 				}

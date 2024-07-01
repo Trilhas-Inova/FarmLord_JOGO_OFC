@@ -1,0 +1,15 @@
+{
+    "id": "gameover_satisfaction",
+    "characterId": -1,
+    "cardText": "Os clientes ficaram insatisfeitos!",
+    "leftAction": {
+        "text": "",
+        "followup": [],
+        "specialFollowup": []
+    },
+    "rightAction": {
+        "text": "",
+        "followup": [],
+        "specialFollowup": []
+    }
+}

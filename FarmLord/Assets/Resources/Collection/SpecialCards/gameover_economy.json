@@ -1,0 +1,15 @@
+{
+    "id": "gameover_economy",
+    "characterId": -1,
+    "cardText": "Seus recursos financeiros se esgotaram, culminando na fim da fazenda.",
+    "leftAction": {
+        "text": "",
+        "followup": [],
+        "specialFollowup": []
+    },
+    "rightAction": {
+        "text": "",
+        "followup": [],
+        "specialFollowup": []
+    }
+}
